@@ -19,7 +19,7 @@ img {
 }
 
 table {
-    padding-top: 80px;
+    padding-top: 5vh;
     margin: auto;
     height: 30vh;
     border-spacing: 20px;
@@ -37,8 +37,8 @@ td {
 }
 
 h2 {
-    margin-top: 15px;
-    margin-bottom: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     font-size:2vh;
     font-weight: 700;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ h2 {
 }
 
 button {
-    background-color: wheat;
+    background-color: rgb(240, 157, 3);
     color:whitesmoke;
     width: 200px;
     height: 40px;
@@ -60,11 +60,6 @@ button {
 
 }
 
-button:hover;
-button:focus {
-    background-color:papayawhip;
-    
-}
 button:active {
     transform: translate(0px, 2px);
     -webkit-transform: translate(0.px, 2px);
